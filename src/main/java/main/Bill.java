@@ -1,7 +1,7 @@
 package main;
 import java.util.Date;
 import java.util.Random;
-import java.util.Scanner;
+
 
 public class Bill extends CustomerName{
 	 //bill no & date

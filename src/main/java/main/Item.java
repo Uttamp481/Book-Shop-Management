@@ -3,8 +3,8 @@ public class Item{
     public String itemName;
     public int mrp;
     public  void addItem(String itemName,int mrpItem){
-        //write your code here
-    	//-------------------
+        this.itemName = itemName; //write your code here
+    	this.mrp = mrpItem; //-------------------
 
     }
 	public String getItemName() {

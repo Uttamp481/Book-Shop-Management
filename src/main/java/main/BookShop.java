@@ -28,7 +28,7 @@ public class BookShop{
         itemAvailable[16].addItem("Money Ball", 84);
 
         
-        System.out.println("S.no" +"    "+"itemName"+"     "+ "MRP");
+        System.out.println("S.no" +"    	"+"itemName"+"     	"+ "MRP");
         for (int i=0;i<=16;i++){
             System.out.println((i+1)+"    "+itemAvailable[i].itemName+ "    "+itemAvailable[i].mrp + '\n') ;
         }
